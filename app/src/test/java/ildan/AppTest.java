@@ -12,3 +12,7 @@ class AppTest {
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 }
+
+class Oren {
+    int x = 3;
+}
