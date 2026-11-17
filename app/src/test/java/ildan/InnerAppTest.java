@@ -16,3 +16,10 @@ class AppTest {
 class Oren {
     int x = 3;
 }
+
+public class InnerAppTest {
+    @Test void appHasAGreeting() {
+        App classUnderTest = new App();
+        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+    }
+}
